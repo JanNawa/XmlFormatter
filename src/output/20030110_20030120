@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<year_end_summary>
+    <year>
+        <start_date>2003-01-10</start_date>
+        <end_date>2003-01-20</end_date>
+    </year>
+    <customer_list>
+        <customer>
+            <customer_name>Vitachrome Inc.</customer_name>
+            <address>
+                <street_address>2678 Kingston Rd.</street_address>
+                <city>NYC</city>
+                <postal_code>10022</postal_code>
+                <country>USA</country>
+            </address>
+            <num_orders>1</num_orders>
+            <order_value>5494.78</order_value>
+        </customer>
+    </customer_list>
+    <product_list>
+        <product_set>
+            <product_line_name>Vintage Cars</product_line_name>
+            <product>
+                <product_name>1936 Mercedes-Benz 500K Special Roadster</product_name>
+                <product_vendor>Studio M Art Models</product_vendor>
+                <units_sold>41</units_sold>
+                <total_sales>1768.33</total_sales>
+            </product>
+            <product>
+                <product_name>1937 Lincoln Berline</product_name>
+                <product_vendor>Motor City Art Classics</product_vendor>
+                <units_sold>39</units_sold>
+                <total_sales>3726.45</total_sales>
+            </product>
+        </product_set>
+    </product_list>
+    <staff_list>
+        <employee>
+            <first_name>Foon Yue</first_name>
+            <last_name>Tseng</last_name>
+            <office_city>NYC</office_city>
+            <active_customers>1</active_customers>
+            <total_sales>5494.78</total_sales>
+        </employee>
+    </staff_list>
+</year_end_summary>
