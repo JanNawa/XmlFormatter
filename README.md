@@ -1,11 +1,11 @@
-# XmlFormatter
+# Xml Formatter
 This program accept the user input and retreive the data from database to generate
 the report in xml format, specifically the year end summary.
 
 The solution uses the several divisions between code segment, 
 so the code will be high cohesion (do 1 thing) and loose coupling (dependency of module).
 
-## Files and external data
+## Files and External Data
 ### assignment_5 (main package for the program)
 * UserInputUI.java --- main for the program that prompts the user for startDate, endDate and filename
 
@@ -39,7 +39,7 @@ so the code will be high cohesion (do 1 thing) and loose coupling (dependency of
 ### output
 all the xml file will be generated into the output folder
 
-## Data structures and their relations to each other
+## Data Structures and their Relations to each other
 When connect to database, the program extract the properties file for configuration and mySql query.
 Using interface to help standardize the program. 
 	e.g. DatabaseConnector which force its child to implement the specific method
@@ -81,7 +81,7 @@ YearEndSummaryXmlFormatter determine the format for year end summary and populat
 (for the code to be more mobile and flexible)
 * if the file already exists, it will overwrite the existing file.
 
-## Key algorithms and design elements
+## Key Algorithms and Design Elements
 The program accept user input. It will continue prompt user for valid date in correct format 
 until the user input the correct date. Then, it will ask for the filename.
 
